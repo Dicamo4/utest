@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.utest.runner.RegistroRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-S5RJVJU" time="0.0">
+  <properties/>
+  <system-out><![CDATA[22:43:52.590 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\NicolasAcostaFerro\Downloads\Utest\serenity.properties 
+22:43:52.667 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\NicolasAcostaFerro\Downloads\Utest\serenity.properties 
+22:43:52.669 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\NicolasAcostaFerro\Downloads\Utest\serenity.properties 
+22:43:52.682 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots.for.interactions=AFTER_EACH_STEP
+22:43:52.682 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+22:43:52.682 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/driver/chromedriver.exe
+22:43:52.682 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - driver.page_load_strategy='normal'
+22:43:52.682 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=10000
+22:43:52.682 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+22:43:52.683 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - environments.default.webdriver.base.url=https://www.utest.com/
+22:43:52.683 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--start-maximized;--test-type;--no-sandbox;--ignore-certificate-errors;\r\n                   --disable-default-apps;--disable-extensions-file-access-check;\r\n                   --incognito;--disable-infobars,--disable-gpu
+22:43:52.683 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Utest
+22:43:52.683 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - driver_capabilities.common.unexpectedAlertBehaviour=ignore
+22:43:52.683 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - drivers.windows.webdriver.chrome.driver=src/test/resources/driver/chromedriver.exe
+22:43:52.967 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/NicolasAcostaFerro/Downloads/Utest/src/test/resources/feature/registro_utest.feature
+22:43:52.968 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/NicolasAcostaFerro/Downloads/Utest/src/test/resources/feature/registro_utest.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+22:43:53.160 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\NicolasAcostaFerro\Downloads\Utest\serenity.properties 
+22:43:53.180 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\NicolasAcostaFerro\Downloads\Utest\serenity.properties 
+22:43:53.182 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\NicolasAcostaFerro\Downloads\Utest\serenity.properties 
+22:43:53.183 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots.for.interactions=AFTER_EACH_STEP
+22:43:53.183 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+22:43:53.183 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/driver/chromedriver.exe
+22:43:53.183 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - driver.page_load_strategy='normal'
+22:43:53.184 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=10000
+22:43:53.184 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+22:43:53.184 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - environments.default.webdriver.base.url=https://www.utest.com/
+22:43:53.184 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--start-maximized;--test-type;--no-sandbox;--ignore-certificate-errors;\r\n                   --disable-default-apps;--disable-extensions-file-access-check;\r\n                   --incognito;--disable-infobars,--disable-gpu
+22:43:53.185 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Utest
+22:43:53.185 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - driver_capabilities.common.unexpectedAlertBehaviour=ignore
+22:43:53.185 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - drivers.windows.webdriver.chrome.driver=src/test/resources/driver/chromedriver.exe
+22:43:53.192 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+22:43:53.197 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@c1a49d91
+22:43:53.199 [Test worker] INFO  - Test Suite Started: Registro en la web uTest
+
+?[31mFailed scenarios:?[0m
+file:///C:/Users/NicolasAcostaFerro/Downloads/Utest/src/test/resources/feature/registro_utest.feature:5 # Registrarse en uTest
+
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m1 passed?[0m)
+0m36,909s
+
+
+net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: Expected condition failed: waiting for By.xpath: //*[@id="city"]/ngf-single-select/ngf-autocomplete-input/ngf-input-container/div/div[3]/button[1]/mat-icon to be present (tried for 10 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S5RJVJU', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.throwShouldBePresentErrorWithCauseIfPresent(WebElementFacadeImpl.java:1094)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilPresent(WebElementFacadeImpl.java:1067)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementPresent(WebElementFacadeImpl.java:987)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1263)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$1dN6GcOu.performAs$accessor$wGc37qyT(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$1dN6GcOu.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
+	at co.com.utest.task.Registro.performAs(Registro.java:36)
+	at co.com.utest.task.Registro$ByteBuddy$y1H7Jwpz.performAs$accessor$TffOwSkY(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at co.com.utest.task.Registro$ByteBuddy$y1H7Jwpz.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
+	at net.serenitybdd.screenplay.actors.OnStage.withCurrentActor(OnStage.java:70)
+	at co.com.utest.stepdefinitions.RegistroStepDefinition.ingreseYCompleteLosDatosSolicitados(RegistroStepDefinition.java:29)
+	at ?.ingrese y complete los datos solicitados(file:///C:/Users/NicolasAcostaFerro/Downloads/Utest/src/test/resources/feature/registro_utest.feature:7)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //*[@id="city"]/ngf-single-select/ngf-autocomplete-input/ngf-input-container/div/div[3]/button[1]/mat-icon to be present (tried for 10 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S5RJVJU', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilPresent(WebElementFacadeImpl.java:1064)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementPresent(WebElementFacadeImpl.java:987)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1263)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$1dN6GcOu.performAs$accessor$wGc37qyT(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$1dN6GcOu.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
+	at co.com.utest.task.Registro.performAs(Registro.java:36)
+	at co.com.utest.task.Registro$ByteBuddy$y1H7Jwpz.performAs$accessor$TffOwSkY(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at co.com.utest.task.Registro$ByteBuddy$y1H7Jwpz.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
+	at net.serenitybdd.screenplay.actors.OnStage.withCurrentActor(OnStage.java:70)
+	at co.com.utest.stepdefinitions.RegistroStepDefinition.ingreseYCompleteLosDatosSolicitados(RegistroStepDefinition.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:235)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:263)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+
+
+22:44:29.878 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+22:44:29.978 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+22:44:29.990 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@18209303
+22:44:29.991 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro en la web uTest:Registrarse en uTest
+22:44:29.991 [pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@18209303: Generating report for test outcome: Registro en la web uTest:Registrarse en uTest
+22:44:29.995 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Registrarse en uTest to file C:\Users\NicolasAcostaFerro\Downloads\Utest\target\site\serenity\f71d82af4f30273cd301524ca23c8f0d8061d146f4b6c25325f6d50ed065f2d0.json (using temp file C:\Users\NicolasAcostaFerro\Downloads\Utest\target\site\serenity\f71d82af4f30273cd301524ca23c8f0d8061d146f4b6c25325f6d50ed065f2d0.json5942905e-51a8-46f6-8f33-efea230ed870)
+22:44:30.037 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro en la web uTest:Registrarse en uTest done
+22:44:30.038 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+22:44:30.038 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 48 ms
+22:44:30.038 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@79ee779c
+22:44:30.038 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro en la web uTest:Registrarse en uTest
+22:44:30.038 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@79ee779c: Generating report for test outcome: Registro en la web uTest:Registrarse en uTest
+22:44:30.060 [pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+22:44:30.062 [pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+22:44:30.063 [pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+22:44:30.097 [pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+22:44:30.097 [pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+22:44:30.098 [pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\NicolasAcostaFerro\Downloads\Utest\src\test\resources\feature\registro_utest.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+22:44:30.199 [pool-2-thread-1] DEBUG serenity.reporting - Generating report in f71d82af4f30273cd301524ca23c8f0d8061d146f4b6c25325f6d50ed065f2d0_screenshots.html
+22:44:30.711 [pool-2-thread-1] DEBUG serenity.reporting - Generated report f71d82af4f30273cd301524ca23c8f0d8061d146f4b6c25325f6d50ed065f2d0_screenshots.html in 512 ms
+22:44:30.715 [pool-2-thread-1] DEBUG serenity.reporting - Generating report in f71d82af4f30273cd301524ca23c8f0d8061d146f4b6c25325f6d50ed065f2d0.html
+22:44:32.209 [pool-2-thread-1] DEBUG serenity.reporting - Generated report f71d82af4f30273cd301524ca23c8f0d8061d146f4b6c25325f6d50ed065f2d0.html in 1494 ms
+22:44:32.209 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Registro en la web uTest:Registrarse en uTest done
+22:44:32.209 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+22:44:32.209 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 2171 ms
+22:44:32.367 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/NicolasAcostaFerro/Downloads/Utest/src/test/resources/feature/registro_utest.feature
+22:44:32.368 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+22:44:32.368 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
